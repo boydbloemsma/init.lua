@@ -15,4 +15,3 @@ require("lazy").setup("plugins")
 
 require("gitsigns").setup()
 
-vim.cmd.colorscheme "catppuccin"
