@@ -13,15 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 
-require("mason").setup()
-
-require("mason-lspconfig").setup({
-	ensure_installed = { "lua_ls", "marksman", "intelephense" }
-})
-
-require"lspconfig".marksman.setup{}
-require"lspconfig".intelephense.setup{}
-
 require("gitsigns").setup()
 
 vim.cmd.colorscheme "catppuccin"
