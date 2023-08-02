@@ -8,7 +8,9 @@ return {
             vim.keymap.set("n", "<leader>fb", require("telescope.builtin").buffers, {})
             vim.keymap.set("n", "<leader>ff", require("telescope.builtin").find_files, {})
             vim.keymap.set("n", "<leader>fg", require("telescope.builtin").git_files, {})
-            -- vim.keymap.set("n", "<leader>fw", require("telescope.builtin").live_grep, {})
+            vim.keymap.set("n", "<leader>fw",  function ()
+                require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ")})
+            end)
         end,
 	}
 }
