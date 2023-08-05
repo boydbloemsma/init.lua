@@ -4,8 +4,9 @@ return {
 		name = "catppuccin",
 		priority = 1000,
 	},
-	{
-		"ellisonleao/gruvbox.nvim",
+    { "lukas-reineke/indent-blankline.nvim" },
+    { 
+        "savq/melange-nvim",
 		priority = 1000,
-	},
+    },
 }
