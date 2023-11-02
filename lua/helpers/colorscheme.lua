@@ -13,8 +13,6 @@ local function get_if_available(name, opts)
     return "default"
 end
 
-local colorscheme = get_if_available("rose-pine")
--- local colorscheme = get_if_available("melange")
--- local colorscheme = get_if_available("catppuccin")
+local colorscheme = get_if_available("gruvbox")
 
 return colorscheme
