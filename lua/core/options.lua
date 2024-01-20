@@ -15,6 +15,8 @@ local opts = {
     updatetime = 50,
     colorcolumn = "120",
     -- background = 'light',
+    mouse = '',
+    ignorecase = true,
 }
 
 for opt, val in pairs(opts) do
