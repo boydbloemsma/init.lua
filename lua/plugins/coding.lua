@@ -4,7 +4,6 @@ return {
       cmd = "IncRename",
       config = true,
     },
-    "tpope/vim-sleuth",
     {
         "nvim-lualine/lualine.nvim",
         opts = {
@@ -15,5 +14,10 @@ return {
                 section_separators = '',
             }
         }
+    },
+    {
+        'numToStr/Comment.nvim',
+        opts = {},
+        lazy = false,
     }
 }

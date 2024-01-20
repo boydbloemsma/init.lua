@@ -14,7 +14,7 @@ local opts = {
     signcolumn = "yes",
     updatetime = 50,
     colorcolumn = "120",
---    background = 'light',
+    -- background = 'light',
 }
 
 for opt, val in pairs(opts) do
