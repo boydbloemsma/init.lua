@@ -15,15 +15,5 @@ vim.keymap.set("n", "<C-Down>", ":resize -2<CR>")
 vim.keymap.set("n", "<C-Left>", ":vertical resize +2<CR>")
 vim.keymap.set("n", "<C-Right>", ":vertical resize -2<CR>")
 
--- Interact with system clipboard
-vim.keymap.set({"n", "v"}, "<leader>y", '"+y')
-vim.keymap.set({"n", "v"}, "<leader>Y", '"+Y')
-
-vim.keymap.set({"n", "v"}, "<leader>d", '"+d')
-vim.keymap.set({"n", "v"}, "<leader>D", '"+D')
-
-vim.keymap.set("n", "<leader>p", '"+p')
-vim.keymap.set("n", "<leader>P", '"+P')
-
 -- Select all
 vim.keymap.set("n", "<C-a>", 'ggVG')
