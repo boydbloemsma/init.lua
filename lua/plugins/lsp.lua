@@ -47,13 +47,13 @@ return {
 
             -- Set up lspconfig.
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
-            require('lspconfig')['intelephense'].setup {
+            require('lspconfig')['intelephense'].setup({
                 capabilities = capabilities
-            }
+            })
 
-            require('lspconfig')['marksman'].setup {
+            require('lspconfig')['marksman'].setup({
                 capabilities = capabilities
-            }
+            })
 
             vim.diagnostic.config({
                 virtual_text = true,
