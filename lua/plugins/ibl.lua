@@ -6,4 +6,8 @@ return {
             enabled = false,
         }
     },
+    cond = function ()
+        -- Only load indent-blankline on macos
+        return vim.fn.has('win32') == 0
+    end
 }
